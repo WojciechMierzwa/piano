@@ -2,12 +2,15 @@ function sleep (time) {
     return new Promise((resolve) => setTimeout(resolve, time));
   }
 
+
 function play()
 {
+
     sleep(1000).then(() => {
         g3();
     });
     sleep(2000).then(() => {
+
         g3();
     });
     sleep(3000).then(() => {
