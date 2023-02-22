@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+}
+.piano{
+    position: fixed;
+}
+.left-key{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    clip-path: polygon(0% 100%, 0% 0%, 30% 0%, 30% 70%, 40% 70%, 40% 100%);
+    border: 1px solid black;
+}
+.black-key{
+    position: relative;
+    height: 137px;
+    width: 30px;
+    background-color: rgb(36, 35, 35);
+    left: -107px;
+    top:-63px;
+}
+
+.right-key{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    clip-path: polygon(0% 100%, 0% 0%, 30% 0%, 30% 70%, 40% 70%, 40% 100%);
+    transform: scaleX(-1);
+    border: 1px solid black;
+    left: -264px;
+}
+.middle-key{
+    position: relative;
+    width: 75px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    left: -132px;
+    
+    clip-path: polygon(30% 0, 30% 70%, 10% 70%, 10% 100%, 90% 100%, 90% 70%, 70% 70%, 70% 0);
+
+}
+.c2{
+    position: relative;
+    
+}
+.c3{
+    position: absolute;
+    left: 500px;
+}
