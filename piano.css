@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: rgb(102, 132, 214);
 }
 .piano{
     position: fixed;
@@ -39,7 +39,7 @@ body{
     position: relative;
     width: 75px;
     height: 200px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
     left: -132px;
     
@@ -54,3 +54,27 @@ body{
     position: absolute;
     left: 500px;
 }
+
+.left-key:active {
+    background-color: #6785fbc7;
+  }
+
+.middle-key:active {
+    background-color: #6785fbc7;
+  }
+  .right-key:active {
+    background-color: #6785fbc7;
+  }
+  .black-key:active {
+    background-color: #292b33c7;
+  }
+
+  .play-button {
+    position: fixed;
+    padding-left: 5%;
+    padding-top: 10%;
+    
+    
+  }
+  
+  

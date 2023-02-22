@@ -1,3 +1,119 @@
+function sleep (time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+  }
+
+function play()
+{
+    sleep(1000).then(() => {
+        g3();
+    });
+    sleep(2000).then(() => {
+        g3();
+    });
+    sleep(3000).then(() => {
+        d4();
+    });
+    sleep(4000).then(() => {
+        d4();
+    });
+    sleep(5000).then(() => {
+        e4();
+    });
+    sleep(6000).then(() => {
+        e4();
+    });
+    sleep(7000).then(() => {
+        d4();
+    });
+    sleep(8000).then(() => {
+        c3();
+    });
+    sleep(9000).then(() => {
+        c3();
+    });
+    sleep(10000).then(() => {
+        b2();
+    });
+    sleep(11000).then(() => {
+        b2();
+    });
+    sleep(12000).then(() => {
+        a2();
+    });
+    sleep(13000).then(() => {
+        a2();
+    });
+    sleep(14000).then(() => {
+        g2();
+    });
+    sleep(15000).then(() => {
+        d3();
+    });
+    sleep(16000).then(() => {
+        d3();
+    });
+    sleep(17000).then(() => {
+        c3();
+    });
+    sleep(18000).then(() => {
+        c3();
+    });
+    sleep(19000).then(() => {
+        b2();
+    });
+    sleep(20000).then(() => {
+        b2();
+    });
+    sleep(21000).then(() => {
+        a2();
+    });
+    sleep(22000).then(() => {
+        g2();
+    });
+    sleep(23000).then(() => {
+        g2();
+    });
+    sleep(24000).then(() => {
+        d3();
+    });
+    sleep(25000).then(() => {
+        d3();
+    });
+    sleep(26000).then(() => {
+        e3();
+    });
+
+    sleep(27000).then(() => {
+        e3();
+    });
+    sleep(28000).then(() => {
+        d3();
+    });
+    sleep(29000).then(() => {
+        c3();
+    });
+    sleep(30000).then(() => {
+        c3();
+    });
+    sleep(31000).then(() => {
+        b2();
+    });
+    sleep(32000).then(() => {
+        b2();
+    });
+    sleep(33000).then(() => {
+        a2();
+    });
+    sleep(34000).then(() => {
+        a2();
+    });
+    sleep(35000).then(() => {
+        g2();
+    });
+
+
+}
+
 function a2()
 {
     let audio = new Audio('notes/a2.mp3');
