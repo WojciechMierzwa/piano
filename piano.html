@@ -9,14 +9,13 @@
     <title>Piano</title>
 </head>
 <body>
-    <div class="play-button">
-        <button onclick="play()">Play <i class="fa fa-play"></i></button>
-    </div>
+    
+    <button class="myButton"onclick="play()">Play </button>
 
     <div class="piano" style="position: fixed;">
             <!--c2-->
            
-            <button class="left-key" onclick="c2()" ></button>
+            <button class="left-key" id="c2" onclick="c2()" ></button>
             <button class="black-key" onclick="db2()"></button>
             <button class="middle-key" onclick="d2()"></button>
             <span style="position: relative; left: -50px;">
@@ -28,25 +27,25 @@
                 <button class="black-key" onclick="gb2()"></button>
             </span>
             <span style="position:relative; left:-266px">
-                <button class="middle-key" onclick="g2()"></button>
+                <button class="middle-key" id="g2" onclick="g2()"></button>
                 <span style="position: relative; left: -50px;">
                     <button class="black-key" onclick="ab2()"></button>
                 </span>
             </span>
             <span style="position:relative; left:-316px">
-                <button class="middle-key" onclick="a2()"></button>
+                <button class="middle-key" id="a2" onclick="a2()"></button>
                 <span style="position: relative; left: -50px;">
                     <button class="black-key" onclick="bb2()"></button>
                 </span>
-                <button class="right-key" onclick="b2()"></button>
+                <button class="right-key" id="b2" onclick="b2()"></button>
             </span>
 
         <!--c3-->
 
         <span style="position: relative; left: -583px">
-        <button class="left-key" onclick="c3()"></button>
+        <button class="left-key" id="c3" onclick="c3()"></button>
         <button class="black-key" onclick="db3()"></button>
-        <button class="middle-key" onclick="d3()"></button>
+        <button class="middle-key" id="d3" onclick="d3()"></button>
         <span style="position: relative; left: -50px;">
             <button class="black-key" onclick="eb3()"></button>
         </span>
@@ -56,7 +55,7 @@
             <button class="black-key" onclick="gb3()"></button>
         </span>
         <span style="position:relative; left:-266px">
-            <button class="middle-key" onclick="g3()"></button>
+            <button class="middle-key"  id="g3" onclick="g3()"></button>
             <span style="position: relative; left: -50px;">
                 <button class="black-key" onclick="ab3()"></button>
             </span>
@@ -73,11 +72,11 @@
         <span style="position: relative; left: -266px;">
         <button class="left-key" onclick="c4()"></button>
         <button class="black-key" onclick="db4()"></button>
-        <button class="middle-key" onclick="d4()"></button>
+        <button class="middle-key" id="d4" onclick="d4()"></button>
         <span style="position: relative; left: -50px;">
             <button class="black-key" onclick="eb4()"></button>
         </span>
-        <button class="right-key" onclick="e4()"></button>
+        <button class="right-key" id="e4" onclick="e4()"></button>
         <span style="position:relative; left:-266px">
             <button class="left-key" onclick="f4()"></button>
             <button class="black-key" onclick="gb4()"></button>
