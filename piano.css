@@ -3,6 +3,9 @@ body{
 }
 .piano{
     position: fixed;
+    width: 10000px;
+    margin-top: 20%;
+    margin-left: 5%;
 }
 .left-key{
     position: relative;
@@ -30,6 +33,7 @@ body{
     transform: scaleX(-1);
     border: 1px solid black;
     left: -264px;
+    
 }
 .middle-key{
     position: relative;
